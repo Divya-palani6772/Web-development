@@ -1,0 +1,220 @@
+*
+{
+    margin: 0;
+}
+
+html,body
+{
+    background-color: #ADD8E6;
+    padding: 10px;
+    height: 100%;
+}
+
+.page-wrap
+{
+    min-height: 100%;
+    margin-bottom: -30px;
+}
+
+.page-wrap:after
+{
+    content: "";
+    display: block;
+}
+
+.site-footer, .page-wrap:after
+{
+    height: 30px;
+}
+
+.site-footer
+{
+    background: #FFE4E1;
+    text-align: center;
+}
+
+#logo
+{
+    float: left; 
+}
+
+#logo-text
+{
+    float: left;
+}
+
+#header
+{
+	background-color: #FFE4E1;
+    text-align: center;
+    flex:1;
+}
+
+#navbar{
+    background-color: #E0FFFF;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    width: 19.5%;
+    display: inline-block;
+    text-align: center;
+    background-color: #E0FFFF;
+    line-height: 2em;
+}
+
+#navbar a:hover{
+    background-color: #5F9EA0 ;
+}
+
+#cssSlider 
+{
+    /* Each Picture is 800px wide */
+    max-width:200px;
+    max-height: 200px;
+    overflow: hidden;
+    border: 10px solid #FFE4E1;
+}
+
+#sliderImages 
+{
+    /* There are 5 pictures so the div needs to be 5x bigger */
+    width : 500%;
+    overflow: hidden;
+    
+    /* needed for Chrome/Safari/Opera */
+    -webkit-animation: slide 20s infinite;
+    /* Most Other Browsers */
+    animation: slide 20s infinite;
+}
+
+#sliderImages img
+{
+    /* There are 5 pictures so each picture should take up 20% of the total space */
+    width: 20%;
+    float:right;
+}
+
+ /* needed for Chrome/Safari/Opera */
+@-webkit-keyframes slide
+{
+    0%{margin-left: 0px;}
+    15%{margin-left: 0px;}
+    20%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+    40%{margin-left: -200%;}
+    55%{margin-left: -200%;}
+    60%{margin-left: -300%;}
+    75%{margin-left: -300%;}
+    80%{margin-left: -400%;}
+    95%{margin-left: -400%;}
+    100%{margin-left: 0px;}
+}
+
+ /* Most Other Browsers */
+@keyframes slide
+{
+    0%{margin-left: 0px;}
+    15%{margin-left: 0px;}
+    20%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+    40%{margin-left: -200%;}
+    55%{margin-left: -200%;}
+    60%{margin-left: -300%;}
+    75%{margin-left: -300%;}
+    80%{margin-left: -400%;}
+    95%{margin-left: -400%;}
+    100%{margin-left: 0px;}
+}
+
+
+#input
+{
+    float:left;
+}
+
+.productBox
+{
+    
+    padding: 5px;
+    border: 3px;
+    border-style: solid;
+    border-color: #E0FFFF;
+    background-color: #ADD8E6;
+    overflow: auto;
+}
+
+.productBox img
+{
+    float:left;
+}
+
+#table th,td
+{
+    border: 1px solid black;
+}
+
+#table tr:hover
+{
+    background-color: #FFE4E1; 
+}
+
+#alignment
+{
+    text-align: center;
+    padding: 5px 0;
+}
+
+#alignment img
+{
+    float: left;
+    max-width: 2000px;
+    max-height: 200px;
+    border: 10px solid #FFE4E1;
+    
+}
+
+#cookie p
+{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+#errorCookie p
+{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+#thickFont
+{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+#blackFont p
+{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+fieldset
+{
+    border: 3px;
+    border-style: solid;
+    border-color: #E0FFFF;
+}
+
+
+
+
